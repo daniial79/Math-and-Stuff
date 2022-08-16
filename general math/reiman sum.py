@@ -43,12 +43,6 @@ def reiman_sum(fx, a, b, n, approach):
     return f'net area: {summation}'
 
 
-
-
-
-
-
-func = lambda x: x + 2
-
-result = reiman_sum(func, 1, 5, 4, 'm')
+func = lambda x: 3 * ((0.85) ** x)
+result = reiman_sum(func, 0, 10, 5, 'l')
 print(result)
